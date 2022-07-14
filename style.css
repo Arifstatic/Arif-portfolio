@@ -2,12 +2,11 @@ section{
 
     display:flex;
     
-    
 }
 .half-width{
 
     width: 50%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .half-width img{
     width: 100%;
@@ -17,10 +16,11 @@ section{
 body{
 
     font-family: 'Poppins',sans-serif;
+    margin: 0;
 }
 h1{
   
-    font-size: 53px;
+    font-size: 55px;
     
 }
 span{
@@ -34,5 +34,10 @@ span{
     border-radius: 5px;
     padding: 10px 40px;
     background-image: linear-gradient(rgb(240, 70, 23), orange);
+    font-weight: 700px;
     
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
